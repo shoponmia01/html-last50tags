@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p>Open to form page <a href="index.html">Click Here</a></p>
+	<h1>Last 50 html tags</h1><br>
+
+	<!-- <nav> tag -->
+	<h1>01. The nav element</h1>
+	<h3>The nav tag defines a set of navigation links.</h3>
+	<nav>
+	<a href="/html/">HTML</a> |
+	<a href="/css/">CSS</a> |
+	<a href="/js/">JavaScript</a> |
+	<a href="/python/">Python</a>
+	</nav><br>
+
+	<!-- <noscript> tag -->
+	<h1>02. The noscript element</h1>
+	<h3>The noscript tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.</h3><br>
+
+	<!-- <object> tag -->
+	<h1>03. The object element</h1>
+	<h3>The object tag defines a container for an external resource.</h3>
+	<p>The external resource can be a web page, a picture, a media player, or a plug-in application.</p>
+	<object data="images/shopon.jpg" width="300"></object><br>
+
+	<!-- <ol> tag -->
+	<h1>04. The ol element</h1>
+	<h3>The ol tag defines an ordered list. An ordered list can be numerical or alphabetical.</h3>
+	<ol>
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ol>
+
+	<ol start="50">
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ol><br>
+
+	<!-- <optgroup> tag -->
+	<h1>05. The optgroup element</h1>
+	<h3>The optgroup tag is used to group related options in a select element (drop-down list).</h3>
+	<form action="/action_page.php">
+  	<label for="cars">Choose a car:</label>
+  	<select name="cars" id="cars">
+    	<optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    	</optgroup>
+	</select><br>
+	  <input type="submit" value="Submit">
+	</form><br>
+
+	<!-- <option> tag -->
+	<h1>06. The option element</h1>
+	<h3>The option tag defines an option in a select list.</h3>
+	<select id="cars">
+	  <option value="volvo">Volvo</option>
+	  <option value="saab">Saab</option>
+	  <option value="opel">Opel</option>
+	  <option value="audi">Audi</option>
+	</select><br>
+
+	<!-- <output> tag -->
+	<h1>07. The output element</h1>
+	<h3>The output tag is used to represent the result of a calculation (like one performed by a script).</h3>
+	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+	<input type="range" id="a" value="50">
+	+<input type="number" id="b" value="25">
+	=<output name="x" for="a b"></output>
+	</form><br>
+
+	<!-- <p> tag -->
+	<h1>08. The p element</h1>
+	<h3>The p tag defines a paragraph.</h3><br>
+
+	<!-- <param> tag -->
+	<h1>09. The param element</h1>
+	<h3>The param tag is used to define parameters for an object element.</h3><br>
+
+	<!-- <picture> tag -->
+	<h1>10. The picture element</h1>
+	<h3>The picture tag gives web developers more flexibility in specifying image resources.</h3><br>
+
+	<!-- <pre> tag -->
+	<h1>11. The pre element</h1>
+	<h3>The pre tag defines preformatted text.</h3><br>
+	<pre>
+	Text in a pre element
+	is displayed in a fixed-width
+	font, and it preserves
+	both      spaces and
+	line breaks
+	</pre><br>
+
+	<!-- <progress> tag -->
+	<h1>12. The progress element</h1>
+	<h3>The progress tag represents the completion progress of a task.</h3>
+	<label for="file">Downloading progress:</label>
+	<progress id="file" value="32" max="100"> 32% </progress><br>
+
+	<!-- <q> tag -->
+	<h1>13. The q element</h1>
+	<h3>The q tag defines a short quotation.</h3><br>
+	<p>WWF's goal is to: 
+	<q>Build a future where people live in harmony with nature.</q>
+	We hope they succeed.</p>
+
+	<!-- <rp> tag -->
+	<h1>14. The rp element</h1>
+	<h3>The rp tag can be used to provide parentheses around a ruby text, to be shown by browsers that do not support ruby annotations.</h3>
+	<ruby>
+	漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+	</ruby>
+
+	<!-- <rt> tag -->
+	<h1>15. The rt element</h1>
+	<h3>The rt tag defines an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation.</h3>
+	<ruby>
+	 漢 <rt> ㄏㄢˋ </rt>
+	</ruby><br>
+
+	<!-- <s> tag -->
+	<h1>16. The s element</h1>
+	<h3>The s tag specifies text that is no longer correct, accurate or relevant. The text will be displayed with a line through it.</h3>
+	<p><s>Only 50 tickets left!</s></p>
+	<p>SOLD OUT!</p><br>
+
+	<!-- <samp> tag -->
+	<h1>17. The samp element</h1>
+	<h3>The samp tag is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font.</h3>
+	<p><samp>File not found.<br>Press F1 to continue</samp></p><br>
+
+	<!-- <script> tag -->
+	<h1>18. The script element</h1>
+	<h3>The script tag is used to embed a client-side script (JavaScript).</h3>
+	<p id="demo"></p>
+
+	<script>
+	document.getElementById("demo").innerHTML = "Hello JavaScript!";
+	</script><br>
+
+	 <!-- <section> tag -->
+	<h1>19. The section element</h1>
+	<h3>The section tag defines a section in a document.</h3>
+	<section>
+	  <h2>WWF History</h2>
+	  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+	</section><br>
+
+	<!-- <select> tag -->
+	<h1>20. The select element</h1>
+	<h3>The select element is used to create a drop-down list.</h3>
+	<form action="/action_page.php">
+	  <label for="cars">Choose a car:</label>
+	  <select name="cars" id="cars">
+	    <option value="volvo">Volvo</option>
+	    <option value="saab">Saab</option>
+	    <option value="opel">Opel</option>
+	    <option value="audi">Audi</option>
+	  </select>
+	  <br><br>
+	  <input type="submit" value="Submit">
+	</form><br>
+
+	<!-- <small> tag -->
+	<h1>21. The small element</h1>
+	<h3>The small tag defines smaller text (like copyright and other side-comments).</h3>
+	<p>This is some normal text.</p>
+	<p><small>This is some smaller text.</small></p><br>
+
+	<!-- <source> tag -->
+	<h1>22. The source element</h1>
+	<h3>The source tag is used to specify multiple media resources for media elements, such as video, audio, and picture.</h3><br>
+
+	<!-- <span> tag -->
+	<h1>23. The span element</h1>
+	<h3>The span tag is an inline container used to mark up a part of a text, or a part of a document.</h3>
+	<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p><br>
+
+	<!-- <strong> tag -->
+	<h1>24. The strong element</h1>
+	<h3>The strong tag is used to define text with strong importance. The content inside is typically displayed in bold.</h3>
+	<strong>This text is using strong tag!</strong><br>
+
+	<!-- <style> tag -->
+	<h1>25. The style element</h1>
+	<h3>The style tag is used to define style information (CSS) for a document.</h3><br>
+
+	<!-- <sub> tag -->
+	<h1>26. The sub element</h1>
+	<h3>The sub tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.</h3>
+	<p>This text contains <sub>subscript</sub> text.</p><br>
+
+	<!-- <summary> tag -->
+	<h1>27. The summary element</h1>
+	<h3>The summary tag defines a visible heading for the details element. The heading can be clicked to view/hide the details.</h3>
+	<details>
+	  <summary>Epcot Center</summary>
+	  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+	</details><br>
+
+	<!-- <sup> tag -->
+	<h1>28. The sup element</h1>
+	<h3>The sup tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1].</h3>
+	<p>This text contains <sup>superscript</sup> text.</p><br>
+
+	<!-- <svg> tag -->
+	<h1>29. The svg element</h1>
+	<h3>The svg tag defines a container for SVG graphics.SVG has several methods for drawing paths, boxes, circles, text, and graphic images.</h3>
+	<svg width="100" height="100">
+	  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+	  Sorry, your browser does not support inline SVG.
+	</svg><br>
+
+	<!-- <table> tag -->
+	<h1>30. The table element</h1>
+	<h3>The table tag defines an HTML table.An HTML table consists of one table element and one or more tr, th, and td elements.</h3>
+	<table>
+	  <tr>
+	    <th>Month</th>
+	    <th>Savings</th>
+	  </tr>
+	  <tr>
+	    <td>January</td>
+	    <td>$100</td>
+	  </tr>
+	</table><br>
+
+	<!-- <tbody> tag -->
+	<h1>31. The tbody element</h1>
+	<h3>The tbody tag is used to group the body content in an HTML table.</h3>
+	<table>
+	  <thead>
+	    <tr>
+	      <th>Month</th>
+	      <th>Savings</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td>January</td>
+	      <td>$100</td>
+	    </tr>
+	    <tr>
+	      <td>February</td>
+	      <td>$80</td>
+	    </tr>
+	  </tbody>
+	  <tfoot>
+	    <tr>
+	      <td>Sum</td>
+	      <td>$180</td>
+	    </tr>
+	  </tfoot>
+	</table><br>
+
+	<!-- <td> tag -->
+	<h1>32. The td element</h1>
+	<h3>The td tag defines a standard data cell in an HTML table.</h3>
+	<table>
+	  <tr>
+	    <td>Cell A</td>
+	    <td>Cell B</td>
+	  </tr>
+	  <tr>
+	    <td>Cell C</td>
+	    <td>Cell D</td>
+	  </tr>
+	</table><br>
+
+	<!-- <template> tag -->
+	<h1>33. The template element</h1>
+	<h3>The template tag is used as a container to hold some HTML content hidden from the user when the page loads.The content inside template can be rendered later with a JavaScript.</h3>
+	<p>Click the button below to display the hidden content from the template element.</p>
+
+	<button onclick="showContent()">Show hidden content</button>
+
+	<template>
+	  <h2>Flower</h2>
+	  <img src="images/shopon.jpg" width="214" height="204">
+	</template>
+
+	<script>
+	function showContent() {
+	  var temp = document.getElementsByTagName("template")[0];
+	  var clon = temp.content.cloneNode(true);
+	  document.body.appendChild(clon);
+	}
+	</script><br>
+
+	<!-- <textarea> tag -->
+	<h1>34. The textarea element</h1>
+	<h3>The textarea tag defines a multi-line text input control.</h3>
+	<form action="/action_page.php">
+	  <p><label for="w3review">Review of W3Schools:</label></p>
+	  <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+	  <br>
+	  <input type="submit" value="Submit">
+	</form><br>
+
+	<!-- <tfoot> tag -->
+	<h1>35. The tfoot element</h1>
+	<h3>The tfoot tag is used to group footer content in an HTML table.</h3><br>
+
+
+	<!-- <th> tag -->
+	<h1>36. The th element</h1>
+	<h3>The th tag defines a header cell in an HTML table.</h3><br>
+
+	<!-- <u> tag -->
+	<h1>37. The u element</h1>
+	<h3>The u tag represents some text that is unarticulated and styled differently from normal text, such as misspelled words or proper names in Chinese text. The content inside is typically displayed with an underline. You can change this with CSS (see example below). </h3>
+	<p>This is some <u>mispeled</u> text.</p><br>
+
+	<!-- <ul> tag -->
+	<h1>38. The ul element</h1>
+	<h3>The ul tag defines an unordered (bulleted) list.Use the ul tag together with the li tag to create unordered lists.</h3>
+	<ul>
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ul><br>
+
+	<!-- <var> tag -->
+	<h1>39. The var element</h1>
+	<h3>The var tag is used to defines a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.</h3><br>
+
+	<!-- <video> tag -->
+	<h1>40. The video element</h1>
+	<h3>The video tag is used to embed video content in a document, such as a movie clip or other video streams.</h3>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/UiF0vz2Grq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
